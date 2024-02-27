@@ -1,10 +1,75 @@
 
 .landingpage{
     width: 100%;
+    position: relative;
     height: 300px;
-    background-image: url('/Asset/images/landingpageimage.png');
+    background-image: url('file:///C:/Users/DELL/OneDrive/Desktop/Beinex%20tasks/Finaltestcase/Asset/images/Rectangle,svg.svg');
+    background-size: cover; 
     background-repeat: no-repeat;
-    background-size: cover;
-    background-color: aqua;
+    &__h1{
+        font-size: 38px;
+        line-height: 52px;
+        top:50px ;
+        left: 50px;
+        position: absolute;
+        color: $color-white;
+    }
+    &__P{
+        position: absolute;
+        width: 769px;
+        height: 105px;
+        font-size: 14px;
+        top:125px ;
+        left: 50px;
+        line-height: 21px;
+        color: $color-white;
+
+
+    }
     
+}
+
+@include mobile{
+    .landingpage{
+        width: 100%;
+        position: relative;
+        height: 400px;
+        background-image: url('file:///C:/Users/DELL/OneDrive/Desktop/Beinex%20tasks/Finaltestcase/Asset/images/Rectangle,svg.svg');
+        background-size: cover; 
+        background-repeat: no-repeat;
+        &__h1{
+            font-size: 38px;
+            line-height: 52px;
+            top:50px ;
+            left: 50px;
+            position: absolute;
+            color: $color-white;
+            margin-left: 70px;
+        }
+        &__P{
+            position: absolute;
+            width: 769px;
+            height: 105px;
+            font-size: 14px;
+            top:125px ;
+            left: 50px;
+            line-height: 21px;
+            color: $color-white;
+            margin-left: 70px;
+        }
+        
+    }
+    
+    .landingpage__P {
+        position: absolute;
+        width: 209px;
+        height: 105px;
+        font-size: 9px;
+        top: 125px;
+        left: 50px;
+        line-height: 21px;
+        color: white;
+        text-align: center;
+    }
+
 }

@@ -1,0 +1,79 @@
+.second-section{
+    width: 100%;
+    height: auto;
+    padding: $spacer-3;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: $spacer-3;
+    gap: $spacer-6;
+    &__image{
+        position: absolute;
+        right: 87px;
+        top: 450px;
+    }
+    .absorbtion{
+        width: 13%;
+        height: auto;
+        background-color: $color-blue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        &__content{
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;           
+        }
+        &__absorption{
+            font-size: 22px;
+            font-weight: 600;
+            margin-top: $spacer-1;
+        }
+        &__p{
+            font-size: 16px;
+            font-weight: 400;
+            width: 150px;
+        }
+
+    }
+
+    
+}
+
+@include mobile{
+    .second-section {
+        width: 100%;
+        height: auto;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .tile {
+        width: 50%;
+        height: auto;
+        margin-top: $spacer-3;
+    }
+    .second-section .absorbtion {
+        width: 50%;
+        height: auto;
+        background-color: #2B98F7;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        padding: $spacer-2;
+        margin-top: $spacer-3;
+    }
+    .second-section__image {
+        position: absolute;
+        right: 265px;
+        top: 2078px;
+        width: 100px;
+    }
+}

@@ -7,8 +7,10 @@
 
 
 // atom
+@import './atoms/heading';
 
 // molecules
+@import './Molecules/review';
 
 
 
@@ -16,3 +18,4 @@
 // organism
 @import './organism/navbardown';
 @import './organism/landingpage';
+@import './organism/second-section';

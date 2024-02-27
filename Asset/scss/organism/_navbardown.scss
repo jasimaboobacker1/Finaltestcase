@@ -11,6 +11,7 @@
     align-items: center;
     justify-content: center;
     justify-content: space-between;
+    border-bottom: 1px solid $color-grey;
     .leftnavup{
         width: 400px;
         height: auto;
@@ -101,7 +102,7 @@ section{
     background: url(/Photo/Banner.jpg) no-repeat;
     background-size: cover;
     background-position:right;
-    height:calc(100vh - 85px);
+    height: 0px;
     width: 100%;
 }
 section img{
@@ -116,12 +117,13 @@ section img{
         position: absolute;
         width: 100%;
         height:calc(100vh - 80px);;
-        background: #2c3e50;
+        background: $color-darkblue;
         top:80px ;
         left: -120%;
         text-align: center;
         transition: all .5s;
         margin-top: 60px;
+        z-index: 3;
         
         }
         nav ul li{

@@ -1,0 +1,33 @@
+.heading-container{
+    width: 590px;
+    height: 64px;
+    padding: $spacer-3;
+    &__h1{
+        font-size: 28px;
+        font-weight: 600;
+        color: $color-darkblue;
+
+    }
+    .head-up{
+        display: flex;
+        width: auto;
+        height: auto;
+        align-items: center;
+        &__h2{
+            font-size: 14px;
+            font-weight: 400;
+            color: $color-darkblue;
+
+
+        }
+        &__line{
+            width: 345px;
+            height: 2px;
+            background-color: $color-darkblue;
+            margin-left: $spacer-1;
+            color: $color-darkblue;
+
+        }
+    }
+  
+}
