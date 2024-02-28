@@ -1,0 +1,80 @@
+.fourth-section{
+    width: 100%;
+    height: 527px;
+    background: url('file:///C:/Users/DELL/OneDrive/Desktop/Beinex%20tasks/Finaltestcase/Asset/images/benefittt.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    .heading-container{
+        padding: $spacer-7;
+    }
+    .card-conttainer{
+        width: 100%;
+        height: auto;
+        padding: $spacer-7;
+        padding-bottom: 0px;
+        position: absolute;
+        top: 275px;
+        z-index: 2;
+
+        .cards{
+            width: 100%;
+            height: auto;
+            background-color:$color-white;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+    
+    }
+    
+    
+    .heading-container__h1{
+        color: $color-white;
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+
+    }
+    .head-up__h2{
+        font-size: 28px;
+        font-weight: 600;
+        color: $color-white;
+    }
+    .head-up__line{
+        background-color: $color-white;
+        width: 200px;
+
+
+    }
+}
+
+
+@include mobile{
+    .benefit-card__h2 {
+        font-size: 8px;
+        font-weight: 600;
+        margin-top: 10px;
+    }
+    .benefit-card__p {
+        font-size: 7px;
+        font-weight: 400;
+        margin-top: 10px;
+    }
+    .benefit-card {
+        width: 200px;
+        height: 170px;
+        padding: 30px;
+        overflow: hidden;
+    }
+    .fourth-section .card-conttainer {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        padding-bottom: 20px;
+        position: absolute;
+        top: 315px;
+        z-index: 2;
+    }
+}

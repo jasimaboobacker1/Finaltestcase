@@ -1,0 +1,16 @@
+.benefit-card{
+    width: 295px;
+    height: auto;
+    padding: $spacer-3;
+    &__h2{
+        font-size: 18px;
+        font-weight: 600;
+        margin-top: $spacer-1;
+    }
+    &__p{
+        font-size: 14px;
+        font-weight: 400;
+        margin-top: $spacer-1;
+
+    }
+}
