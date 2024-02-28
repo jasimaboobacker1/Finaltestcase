@@ -1,0 +1,37 @@
+.tileee{
+    width: 50%;
+    height: auto;
+    background-color: $color-darkblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: $spacer-3;
+    &__h3{
+        font-size: 14px;
+        font-weight: 400;
+        color: $color-grey;
+        margin-top: $spacer-2;
+
+
+    }
+    &__h4{
+        font-size: 14px;
+        font-weight: 600;
+        color: $color-white;
+        margin-top: $spacer-1;
+
+    }
+    .head{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        &__h2{
+            font-size: 18px;
+            font-weight: 600;
+            color: $color-white;
+            margin-left: $spacer-2;
+        }
+    }
+
+}

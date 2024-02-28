@@ -141,6 +141,35 @@
     text-align: center;
     line-height: 24px; }
 
+.tileee {
+  width: 50%;
+  height: auto;
+  background-color: #10385B;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px; }
+  .tileee__h3 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #666666;
+    margin-top: 20px; }
+  .tileee__h4 {
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    margin-top: 10px; }
+  .tileee .head {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center; }
+    .tileee .head__h2 {
+      font-size: 18px;
+      font-weight: 600;
+      color: white;
+      margin-left: 20px; }
+
 .logo {
   width: 150px;
   height: 30px;
@@ -626,5 +655,31 @@ section img {
     width: 120px; }
   .fifth-section .line__p {
     overflow: hidden; }
+
+@media (max-width: 550px) {
+  .fifth-section .right {
+    width: 600px;
+    height: 400px;
+    background-color: aliceblue;
+    background: url(file:///C:/Users/DELL/OneDrive/Desktop/Beinex%20tasks/Finaltestcase/Asset/images/righttt.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: none; }
+
+  .fifth-section .left {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column; }
+
+  .fifth-section .left .line {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 30px; } }
 
 /*# sourceMappingURL=style.css.map */
