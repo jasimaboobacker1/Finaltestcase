@@ -6,7 +6,7 @@
   font-family: "Poppins", sans-serif; }
 
 .heading-container {
-  width: 590px;
+  width: 100%;
   height: 64px;
   padding: 30px; }
   .heading-container__h1 {
@@ -28,6 +28,28 @@
       background-color: #10385B;
       margin-left: 10px;
       color: #10385B; }
+
+.trust-line1 {
+  width: 100%;
+  height: auto;
+  display: flex; }
+  .trust-line1__h2 {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 20px; }
+  .trust-line1 .one {
+    width: 50%;
+    height: auto;
+    padding: 10px 0px;
+    display: flex;
+    align-items: center; }
+  .trust-line1 .two {
+    width: 50%;
+    height: auto;
+    padding: 10px 0px;
+    display: flex;
+    align-items: center; }
 
 .tile {
   width: 13%;
@@ -328,6 +350,105 @@ section img {
     position: absolute;
     right: 265px;
     top: 2078px;
-    width: 100px; } }
+    width: 100px;
+    display: none; } }
+.third-section {
+  width: 100%;
+  height: 413px;
+  background: linear-gradient(to right, #1f1e1e, transparent), url("file:///C:/Users/DELL/OneDrive/Desktop/Beinex%20tasks/Finaltestcase/Asset/images/thrdsecbggg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; }
+  .third-section .personimage {
+    position: absolute;
+    top: 53%;
+    left: 75%;
+    transform: translate(-50%, -50%); }
+  .third-section .left {
+    width: 65%;
+    height: 100%; }
+    .third-section .left__h3 {
+      font-size: 28px;
+      font-weight: 600;
+      color: white;
+      padding-left: 30px;
+      padding-top: 30px; }
+    .third-section .left__h5 {
+      font-size: 14px;
+      font-weight: 400;
+      color: white;
+      padding-left: 30px; }
+    .third-section .left .trust-indexx {
+      width: 100%;
+      height: 251.7px;
+      padding-left: 30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around; }
+    .third-section .left .bottom {
+      width: 100%;
+      height: 68px;
+      background-color: #2B98F7;
+      display: flex;
+      align-items: center;
+      color: white;
+      padding-left: 30px; }
+
+@media (max-width: 550px) {
+  .third-section .personimage {
+    position: absolute;
+    top: 53%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    display: none; }
+
+  .third-section {
+    width: 100%;
+    height: auto;
+    background: linear-gradient(to right, #1f1e1e, transparent), url(file:///C:/Users/DELL/OneDrive/Desktop/Beinex%20tasks/Finaltestcase/Asset/images/thrdsecbggg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative; }
+
+  .third-section .left {
+    width: 100%;
+    height: 100%;
+    padding: 40px; }
+
+  .third-section .left__h3 {
+    font-size: 28px;
+    font-weight: 600;
+    color: white;
+    padding-left: 30px; }
+
+  .trust-line1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column; }
+
+  .third-section .left .trust-indexx {
+    width: 100%;
+    height: auto;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px; }
+
+  .trust-line1 .one {
+    width: 100%;
+    height: auto;
+    padding: 10px 0px;
+    display: flex;
+    align-items: center; }
+
+  .trust-line1 .two {
+    width: 100%;
+    height: auto;
+    padding: 10px 0px;
+    display: flex;
+    align-items: center; } }
 
 /*# sourceMappingURL=style.css.map */

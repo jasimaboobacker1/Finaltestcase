@@ -1,0 +1,27 @@
+.trust-line1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    &__h2{
+        color: $color-white;
+        font-size: 16px;
+        font-weight: 400;
+        margin-left: $spacer-2;
+    }
+    .one{
+        width: 50%;
+        height: auto;
+        padding:  $spacer-1 0px;
+        display: flex;
+        align-items: center;
+    
+    }
+    .two{
+        width: 50%;
+        height: auto;
+        padding:  $spacer-1 0px;
+        display: flex;
+        align-items: center;
+
+    }
+}
