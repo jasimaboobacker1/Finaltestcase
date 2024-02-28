@@ -1,0 +1,67 @@
+.fifth-section{
+    width: 100%;
+    height: auto;
+    background-color: #F1F5F8;
+    padding-top: 170px;
+    display: flex;
+    flex-wrap: wrap;
+    .right{
+        width: 600px;
+        height: 400px;
+        background-color: aliceblue;
+        background: url('file:///C:/Users/DELL/OneDrive/Desktop/Beinex%20tasks/Finaltestcase/Asset/images/righttt.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .left{
+        width: 50%;
+        height: 100%;
+       
+        display: flex;
+        flex-direction: column;
+        .card-containerrrr{
+            padding: $spacer-3;
+
+
+        }
+        
+        .line {
+                width: 100%;
+                height: auto;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                padding-top: 30px;
+            }
+        
+            
+        }
+        .heading-container {
+            width: 100%;
+            height: 100px;
+            padding: 30px;
+        }
+        .heading-container__h1{
+            color: $color-darkblue;
+            font-size: 14px;
+            font-weight: 400;
+            letter-spacing: 5px;
+            text-transform: uppercase;
+    
+        }
+        .head-up__h2{
+            font-size: 28px;
+            font-weight: 600;
+            color: $color-darkblue;
+        }
+        .head-up__line{
+            background-color: $color-darkblue;
+            width: 120px;
+    
+    
+        }
+        .line__p{
+            overflow: hidden;
+        }
+
+    }
