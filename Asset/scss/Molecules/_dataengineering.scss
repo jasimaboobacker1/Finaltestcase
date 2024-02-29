@@ -1,15 +1,17 @@
 .tileee{
-    width: 50%;
-    height: auto;
-    background-color: $color-darkblue;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: $spacer-3;
+   
+        width: 49%;
+        height: 47.9%;
+        background-color: #03549F;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+   
     &__h3{
         font-size: 14px;
         font-weight: 400;
-        color: $color-grey;
+        color: rgb(216, 214, 214);
         margin-top: $spacer-2;
 
 

@@ -1,0 +1,132 @@
+.sixth-section{
+    width: 100%;
+    height: auto;
+    background-color: $color-darkblue;
+    display: flex;
+    flex-wrap: wrap;
+    padding: $spacer-3;
+    .bottom{
+        width: 100%;
+        height: 700px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        // padding: $spacer-1;
+
+        .botm-left{
+            width: 426px;
+            height: 100%;
+            background: url('file:///C:/Users/DELL/OneDrive/Desktop/Beinex%20tasks/Finaltestcase/Asset/images/leftimage.svg');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .botm-right{
+            width: 1000px;
+            height: 100%;
+            display: flex;
+            flex-direction:column ;
+            justify-content: space-between;
+            .right-top{
+                width: 100%;
+                height: 226px;
+                background-color: #03549F;
+                padding: $spacer-2;
+                .divvv{
+                    display: flex;
+                    flex-wrap: wrap;
+                }
+                .p{
+                    font-size: 14px;
+                    font-weight: 400;
+                    margin-top: $spacer-1;
+                    color: $color-white;
+                }
+
+               .head{
+                display: flex;
+                align-items: center;
+                .linnnee{
+                    color: #04BBF2;
+                }
+                .head__h2{
+                    margin-left: $spacer-1;
+                    color: $color-white;
+                    font-size: 18px;
+                    font-weight: 600;
+                }
+            }
+            }
+            .right-bottom{
+                width: 100%;
+                height: auto;
+                display: flex;
+               flex-wrap: wrap;
+               gap: 20px;
+            }
+        }
+    }
+    .upper{
+        width: 100%;
+        height: 100px;
+        padding: $spacer-1;
+        display: flex;
+        align-items: center;
+        .left{
+            width: 35%;
+            height:auto;
+            .head1{
+               
+                    font-size: 14px;
+                    font-weight: 400;
+                    color: $color-white;
+                
+            }
+            .head2{
+                font-size: 28px;
+                font-weight: 600;
+                color: $color-white;
+
+            }
+            &__p{
+                font-size: 14px;
+                font-weight: 400;
+                color: #e4dfdf;
+            }
+        }
+    }
+}
+
+@include mobile{
+    .sixth-section .bottom {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .sixth-section .bottom .botm-left {
+       
+        display: none;
+    }
+    .sixth-section .bottom .botm-right .right-top .p {
+        font-size: 7px;
+        font-weight: 400;
+        margin-top: 10px;
+        color: white;
+        width: 200px;
+    }
+    .sixth-section .bottom .botm-right .right-top .divvv {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    element.style {
+        margin-left: 0px;
+    }
+    .sixth-section .upper .left__p {
+        font-size: 7px;
+        font-weight: 400;
+        color: #e4dfdf;
+    }
+}
