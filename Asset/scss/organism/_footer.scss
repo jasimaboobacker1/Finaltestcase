@@ -5,7 +5,7 @@
     flex-wrap: wrap;
     padding: $spacer-6;
     padding-top: $spacer-8;
-    background-color: $color-darkblue;
+    background:linear-gradient(to left,$color-darkblue,rgba(21, 13, 43, 1));
     .headingmain{
         font-size: 15px;
         font-weight: 400;
@@ -40,7 +40,6 @@
     height: auto;
     display: flex;
     flex-wrap: wrap;
-    background-color: $color-darkblue;
    
     .righttt{
         width: 400px;
@@ -48,6 +47,7 @@
         display: flex;
         flex-wrap: wrap;
         margin-top: $spacer-2;
+        margin-left: 100px;
         .oneee{
             width: 50%;
             height: auto;
@@ -70,18 +70,18 @@
 
     }
     .lefttt{
-        width: 210px;
+        width: 2$spacer-1;
         height: auto;
         color: $color-white;
         display: flex;
         flex-direction: column;
         &__h3{
-            margin-top: $spacer-1;
+            margin-top: $spacer-2;
         }
     
     .imagefooter{
         width: 150px;
-        height: 40px;
+        height: $spacer-4;
     }
   }
 }
@@ -89,8 +89,25 @@
 
 .footer-down{
     width: 100%;
-    height: 300px;
+    height: auto;
     background-color: rgba(21, 13, 43, 1);
+    padding: $spacer-3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .leftnavup{
+        width: 400px;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        i{
+            margin: $spacer-1;
+            font-size: 15px;
+        }
+    }
 }
 
 @include mobile{
@@ -101,7 +118,7 @@
         flex-wrap: wrap;
         flex-direction: column;
         align-items: center;
-        padding-top: 30px;
+        padding-top: $spacer-3;
         background-color: #13274F;
     }
     .footer .left-container .righttt .oneee {
@@ -113,7 +130,7 @@
         width: 100%;
         height: auto;
         color: white;
-        margin-top: 30px;
+        margin-top: $spacer-3;
     }
 
     .footer .right-container {
@@ -129,4 +146,14 @@
         width: 100%;
         height: 200px;
     }
+    .footer .left-container .righttt {
+        width: 400px;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+    
 }
