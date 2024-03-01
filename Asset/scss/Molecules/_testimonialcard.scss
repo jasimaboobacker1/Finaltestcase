@@ -10,14 +10,15 @@
         position: absolute;
         top: -42px;
         left: 19px;
+        display: none;
     }
     &__img{
         float: inline-end;
     }
-    &__h2{
+    &__h2 {
         font-size: 18px;
         font-weight: 600;
-        margin-top: $spacer-4;
+        /* margin-top: 40px; */
     }
     &__p{
         font-size: 14px;

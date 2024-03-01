@@ -1,7 +1,7 @@
 .sixth-section{
     width: 100%;
     height: auto;
-    background-color: $color-darkblue;
+    background-color:rgba(7, 29, 49, 1);
     display: flex;
     flex-wrap: wrap;
     padding: $spacer-3;
@@ -97,36 +97,13 @@
 }
 
 @include mobile{
-    .sixth-section .bottom {
+    .sixth-section {
         width: 100%;
         height: auto;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-between;
-    }
-    .sixth-section .bottom .botm-left {
-       
-        display: none;
-    }
-    .sixth-section .bottom .botm-right .right-top .p {
-        font-size: 7px;
-        font-weight: 400;
-        margin-top: 10px;
-        color: white;
-        width: 200px;
-    }
-    .sixth-section .bottom .botm-right .right-top .divvv {
+        background-color: #10385B;
         display: flex;
         flex-wrap: wrap;
-        flex-direction: column;
-    }
-    element.style {
-        margin-left: 0px;
-    }
-    .sixth-section .upper .left__p {
-        font-size: 7px;
-        font-weight: 400;
-        color: #e4dfdf;
+        padding: 30px;
+        display: none;
     }
 }

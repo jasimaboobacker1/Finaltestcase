@@ -5,7 +5,7 @@
     flex-wrap: wrap;
     padding: $spacer-6;
     padding-top: $spacer-8;
-    background:linear-gradient(to left,$color-darkblue,rgba(21, 13, 43, 1));
+    background:linear-gradient(to left,$color-darkblue,rgb(20, 3, 67));
     .headingmain{
         font-size: 15px;
         font-weight: 400;
@@ -96,6 +96,11 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    &__headddd{
+        color: white;
+        font-size: 14;
+        font-weight: 400;
+    }
     .leftnavup{
         width: 400px;
         height: auto;
